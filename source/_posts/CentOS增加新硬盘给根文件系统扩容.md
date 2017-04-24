@@ -18,6 +18,8 @@ date: 2017-04-18 17:48:57
 * 已使用 5.8GB
 * 预计 增加12G 磁盘空间
 
+<!-- more -->
+
 ### 2. 增加一块物理磁盘
 
 Parallels Desktop 不能在线增加磁盘，所以要先将VM关闭，然后添加：![](https://samzong.oss-cn-shenzhen.aliyuncs.com/blog/m5e1d.jpg)
