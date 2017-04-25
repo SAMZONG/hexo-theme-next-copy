@@ -22,12 +22,12 @@ date: 2017-04-18 17:48:57
 
 ### 2. 增加一块物理磁盘
 
-Parallels Desktop 不能在线增加磁盘，所以要先将VM关闭，然后添加：![](https://samzong.oss-cn-shenzhen.aliyuncs.com/blog/m5e1d.jpg)
-
+Parallels Desktop 不能在线增加磁盘，所以要先将VM关闭，然后添加：
+![](https://samzong.oss-cn-shenzhen.aliyuncs.com/blog/m5e1d.jpg)
 增加12G的磁盘
 ![](https://samzong.oss-cn-shenzhen.aliyuncs.com/blog/prgyd.jpg)
 
-然后启动VM，这时可以通过```fdisk -l```查看当前已经增加了一块12G的磁盘
+然后启动VM，这时可以通过<code>fdisk -l</code>查看当前已经增加了一块12G的磁盘
 
 ![](https://samzong.oss-cn-shenzhen.aliyuncs.com/blog/tat9r.jpg)
 
