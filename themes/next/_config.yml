@@ -45,12 +45,13 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  categories: /categories
-  about: /about
   archives: /archives
+  categories: /categories
   tags: /tags
+  about: /about
   #sitemap: /sitemap.xml
   #commonweal: /404.html
+  links: link.html
 
 
 # Enable/Disable menu icons.
@@ -69,7 +70,7 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-
+  links: sitemap
 
 
 
@@ -316,14 +317,14 @@ han: false
 # Disqus
 disqus:
   enable: false
-  shortname:
+  shortname: samzong
   count: true
 
 # Hypercomments
 #hypercomments_id:
 
 # Gentie productKey
-#gentie_productKey:
+#gentie_productKey: 25265949ede0400894efd71aeba117d7
 
 # changyan
 changyan:

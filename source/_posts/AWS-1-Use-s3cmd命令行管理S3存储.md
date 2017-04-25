@@ -1,7 +1,6 @@
 ---
 title: AWS(1) Use s3cmd命令行管理S3存储
 tags: 'AWS'
-categories: 'MySQL'
 categories: 'AWS'
 permalink: aws-s3-s3cmd-linux
 id: 120
