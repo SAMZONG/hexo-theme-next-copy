@@ -5,10 +5,14 @@
   <span class="with-love">
     <i class="fa fa-{{ theme.authoricon }}"></i>
   </span>
-  <span class="author" itemprop="copyrightHolder">{{ config.author }}</span>
+  	<span class="author" itemprop="copyrightHolder">
+  		<a href="https://notes.ultraera.org">
+  			{{ config.author }}
+		</a>
+	</span>
 </div>
 
-{% if theme.copyright %}
+{% if !theme.copyright %}
 <div class="powered-by">
   {{ __('footer.powered', '<a class="theme-link" href="https://hexo.io">Hexo</a>') }}
 </div>

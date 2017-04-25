@@ -37,7 +37,7 @@ Parallels Desktop 不能在线增加磁盘，所以要先将VM关闭，然后添
 
 #### 3.1 查看当前<code>pvdisplay</code>磁盘列表，将<code>/dev/sdb</code>创建pv块
 
-```
+```shell
 [root@centos ~]# pvdisplay
   --- Physical volume ---
   PV Name               /dev/sda2

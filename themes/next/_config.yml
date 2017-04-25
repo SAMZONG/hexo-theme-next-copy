@@ -46,11 +46,11 @@ index_with_subtitle: false
 menu:
   home: /
   categories: /categories
-  #about: /about
+  about: /about
   archives: /archives
   tags: /tags
   #sitemap: /sitemap.xml
-  commonweal: /404.html
+  #commonweal: /404.html
 
 
 # Enable/Disable menu icons.
@@ -144,8 +144,10 @@ font:
 social:
   #LinkLabel: Link
   GitHub: https://github.com/SAMZONG
-  Twitter: https://twitter.com/luchuanjia
+  #Twitter: https://twitter.com/luchuanjia
   Weibo: https://weibo.com/573578678
+  #知乎: https://zhihu.com/people/samzong
+  Mail: mailto:luchuanjia@msn.com
 
 
 # Social Links Icons
@@ -158,9 +160,10 @@ social_icons:
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
-  Twitter: twitter
+  #Twitter: twitter
   Weibo: weibo
-
+  #知乎: globe
+  Mail: envelope
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
@@ -185,8 +188,8 @@ toc:
 
 sidebar:
   # Sidebar Position, available value: left | right
-  position: left
-  #position: right
+  #position: left
+  position: right
 
   # Sidebar Display, available value:
   #  - post    expand on posts automatically. Default.
@@ -194,8 +197,8 @@ sidebar:
   #  - hide    expand only when click on the sidebar toggle icon.
   #  - remove  Totally remove sidebar including sidebar toggle.
   #display: post
-  #display: always
-  display: hide
+  display: always
+  #display: hide
   #display: remove
 
   # Sidebar offset from top menubar in pixels.
@@ -210,14 +213,13 @@ sidebar:
 
 
 # Blog rolls
-links_title: Links
+#links_title: Links
 #links_layout: block
 #links_layout: inline
-links:
-  Title: http://example.com/
-  Blank: https://blank-boy.com/
-  Thanatos: https://blog.coloz.net/
-  WeiXias:  https://weixias.com/
+#links:
+#  Blank: https://blank-boy.com/
+#  Thanatos: https://blog.coloz.net/
+#  WeiXias:  https://weixias.com/
 
 
 # ---------------------------------------------------------------
