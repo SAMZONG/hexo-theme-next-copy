@@ -35,7 +35,7 @@ Parallels Desktop 不能在线增加磁盘，所以要先将VM关闭，然后添
 
 ### 3. 格式化磁盘并加入到VGroup组内
 
-#### 3.1 查看当前```pvdisplay``` 磁盘列表，将```/dev/sdb```创建pv块
+#### 3.1 查看当前<code>pvdisplay</code>磁盘列表，将<code>/dev/sdb</code>创建pv块
 
 ```
 [root@centos ~]# pvdisplay
@@ -76,7 +76,7 @@ Parallels Desktop 不能在线增加磁盘，所以要先将VM关闭，然后添
   PV UUID               XTpaBR-512W-vQIV-fwwz-So7L-ZCa3-yjDccQ
 ```
 
-#### 3.2 查看当前```vgdisplay```VGroup组，将```/dev/sdb```加入根目录所在VGroup
+#### 3.2 查看当前<code>vgdisplay</code>VGroup组，将<code>/dev/sdb</code>加入根目录所在VGroup
 
 ```
 [root@centos ~]# vgdisplay
@@ -126,7 +126,7 @@ Parallels Desktop 不能在线增加磁盘，所以要先将VM关闭，然后添
   VG UUID               szQ4fH-Sr1Z-V6c2-KVMp-ZUik-oUDP-rU8dQS
 ```
 
-#### 3.3 查看```lvdisplay```根卷的名称，将磁盘加入根卷的LV
+#### 3.3 查看<code>lvdisplay</code>根卷的名称，将磁盘加入根卷的LV
 
 ```
 [root@centos ~]# lvdisplay
@@ -205,9 +205,9 @@ Parallels Desktop 不能在线增加磁盘，所以要先将VM关闭，然后添
 
 ### 更新磁盘分区表
 
-当你增加完成之后，这时使用```df -h```查看的磁盘空间仍然没有变化，因为我们还需要将根卷的分区表刷新。
+当你增加完成之后，这时使用<code>df -h</code>查看的磁盘空间仍然没有变化，因为我们还需要将根卷的分区表刷新。
 
-#### 使用```resize2fs```刷新根卷信息
+#### 使用<code>resize2fs</code>刷新根卷信息
 
 ```
 [root@centos ~]# resize2fs /dev/vg_hadoop01/lv_root
