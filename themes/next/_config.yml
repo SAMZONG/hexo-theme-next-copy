@@ -477,7 +477,7 @@ algolia_search:
 
 # Local search
 local_search:
-  enable: false
+  enable: true
   # show top n results per article, show all results by setting to -1
   top_n_per_article: 1
 
