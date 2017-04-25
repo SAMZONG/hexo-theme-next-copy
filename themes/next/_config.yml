@@ -145,7 +145,7 @@ social:
   #LinkLabel: Link
   GitHub: https://github.com/SAMZONG
   #Twitter: https://twitter.com/luchuanjia
-  Weibo: https://weibo.com/573578678
+  #Weibo: https://weibo.com/573578678
   #知乎: https://zhihu.com/people/samzong
   Mail: mailto:luchuanjia@msn.com
 
@@ -161,7 +161,7 @@ social_icons:
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   GitHub: github
   #Twitter: twitter
-  Weibo: weibo
+  #Weibo: weibo
   #知乎: globe
   Mail: envelope
 
@@ -182,7 +182,7 @@ toc:
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
 # Available: by | by-nc | by-nc-nd | by-nc-sa | by-nd | by-sa | zero
-#creative_commons: by-nc-sa
+creative_commons: by-nc-sa
 #creative_commons:
 
 
